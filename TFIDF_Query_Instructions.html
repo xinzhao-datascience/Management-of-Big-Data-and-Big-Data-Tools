@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body style="font-family: verdana, sans-serif;font-size: 12px;">
+<p><strong>Dataset:</strong> bbcsport.zip</p>
+<ul>
+<li>The dataset has articles&nbsp;from BBC&nbsp;</li>
+<li>The dataset one folder each for bbc articles for athletics, cricket, football, rugby, tennis</li>
+<li><strong>Reference:</strong>&nbsp;</li>
+<ul>
+<li><span>D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006. </span><a href="http://mlg.ucd.ie/files/publications/greene06icml.pdf">[PDF]</a><span>&nbsp;</span><a href="http://mlg.ucd.ie/files/bib/greene06icml.bib">[BibTeX]</a></li>
+</ul>
+<li><strong>Note: For the exam you can choose any ONE of the folders. </strong>Of course, you can use more folders if you want to.&nbsp;</li>
+</ul>
+<p><strong>&nbsp;</strong></p>
+<p><strong>Technologies:</strong>&nbsp; MapReduce, Spark, Hive, Pig, HBase, Mongo, HDFS. &nbsp;You can make use of python and python libraries as helpers.</p>
+<p><strong>&nbsp;Important Notes:&nbsp;</strong>&nbsp;</p>
+<p style="padding-left: 30px;">(a) Do not use any existing libraries to compute TFIDF. It has to be done from scratch.</p>
+<p style="padding-left: 30px;">(b) Make sure to test for number of reducers/executors &gt; 1. If you have a specific reason to choose 1 reducer/executor then provide an explanation as to why that is the case.&nbsp;</p>
+<p><strong>Questions:</strong></p>
+<p>1. (Building Index) Compute TFIDF scores for all words in all documents &nbsp;and build an inverted index&nbsp;<strong>(10)</strong></p>
+<p>2. (Search) Given a new query (one or more words) and &nbsp;a value N, retrieve the top N &nbsp;matching documents with a score (use TFIDF scores to retrieve the matching documents) (10)</p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;(a) If the system is able to take in a query with a value N and return top N matching documents with a score <strong>(7)</strong></p>
+<p>&nbsp; &nbsp; &nbsp; &nbsp;(b) Additionally, if the system can do it in real-time or near real-time <strong>(3)</strong></p>
+<p>3. Documentation<strong> (5)</strong></p>
+<ul>
+<li>The document should contain both codes and explanations</li>
+<li>Summary section: 3-4 short bullet points of what your system does, why it is awesome, what tools are used etc</li>
+<li>Give your document a title</li>
+<li>Code portion should have comments</li>
+<li>You document portion should refer to line numbers of code when describing your method</li>
+<li>Need an overall architecture diagram: For example, You can come up with a diagram that shows your Data store, all steps in the middle (as boxes) and finally the data sink&nbsp;</li>
+<li>You should also write a section on why you made use of certain tools and contrast that with why you did not choose some others</li>
+<li>If you employ any tricks to make your search system real-time then highlight that</li>
+<li>Result Section: Choose 2 queries ( with number of words &gt; 1). For each query report results for following values of N</li>
+<ul>
+<li>N=1</li>
+<li>N=3</li>
+<li>N=5</li>
+<li>for the purposes of the document, copy and paste the actual contents of the resulting documents so that I can easily understand the results.</li>
+</ul>
+<li>Try to format your document nicely. Think! You could&nbsp;submit the document to some person who asks for an example of your previous work in Big Data Tools</li>
+</ul>
+<p><strong>Submission:</strong></p>
+<ul>
+<li>Create a single pdf/doc file&nbsp;</li>
+</ul>
+<ul>
+<li>Submit into Assignment folder titled "<span style="color: inherit;">Final Exam</span><span style="color: inherit;">"</span></li>
+</ul>
+</body>
+</html>
