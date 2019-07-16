@@ -5,9 +5,8 @@
 - This program in not case sensitive, therefore user can enter the word in both uppercase and lowercase
 - This program trims all unnecessary white space of user input
 
-The reason why I chose the tools Pyspark, sparkSQL and dataframes is because in Pyspark I can use high level API&#39;s to perform tasks compare to complex mapper reducers. _ _I also used dataframes instead of RDD is beucase dataframes have better space and speed efficiency than RDD format.
 
-The tf-idf inverted index is built on the dataset is used from BBC sports website. The dataset consists of a total of 265 text files which contains football sports news1.
+The tf-idf inverted index is built on the dataset is used from BBC sports website. The dataset consists of a total of 265 text files which contains football sports news.
 
 **Program Insruction:**
 
