@@ -6,7 +6,7 @@
 - This program trims all unnecessary white space of user input
 
 
-The tf-idf inverted index is built on the dataset is used from BBC sports website. The dataset consists of a total of 265 text files which contains football sports news.
+The tf-idf inverted index is built on the dataset from BBC sports website. The dataset consists of a total of 265 text files which contains football sports news.
 
 **Program Insruction:**
 
