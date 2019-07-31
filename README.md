@@ -16,7 +16,7 @@ In order to run the python file , the program takes 2 parameters from the user. 
 
 _tf\_idf\_dataframe(sc,sqlContext):_
 
-This function creates a store the dataset in RDD format first, it counts the number of documents in the dataset, and cleans the data by converting all letters to lower case and split each word by space. Then the dataset is converted to a dataframe. The program will calculate term frequency of each word, find distinct words in how many documents and calculate idf. In order to calculate tf\_idf, tf dataframe is joined with idf dataframe, then tf\_idf is calculated by multiplying tf with idf. In the end the tf\_idf is sorted with descending order. The tf\_idf index is saved as csv format
+This function creates a dataset and store in RDD format first, it counts the number of documents in the dataset, and cleans the data by converting all letters to lower case and split each word by space. Then the dataset is converted to a dataframe. The program will calculate term frequency of each word, find distinct words in how many documents and calculate idf. In order to calculate tf\_idf, tf dataframe is joined with idf dataframe, then tf\_idf is calculated by multiplying tf with idf. In the end the tf\_idf is sorted with descending order. The tf\_idf index is saved as csv format
 
 _search\_engine(sc,tf\_idf\_index,query,n):_
 
